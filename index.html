@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveGuard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1>DriveGuard 🚨</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Prevent Accidents Before They Happen</h2>
+        <p>Smart drunk driving detection system for bikes</p>
+        <button id="demoBtn">View Demo</button>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <h2>Features</h2>
+        <div class="cards">
+            <div class="card">🚫 Engine Lock</div>
+            <div class="card">📡 GPS Tracking</div>
+            <div class="card">📲 SMS Alert</div>
+            <div class="card">🔊 Buzzer Alert</div>
+        </div>
+    </section>
+
+    <!-- Dashboard -->
+    <section class="dashboard">
+        <h2>Live Dashboard</h2>
+
+        <div class="box">
+            <h3>Alcohol Level</h3>
+            <p id="alcoholValue">0%</p>
+        </div>
+
+        <div class="box">
+            <h3>Status</h3>
+            <p id="statusText">SAFE</p>
+        </div>
+
+        <button id="simulateBtn">Simulate Detection</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
